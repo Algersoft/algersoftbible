@@ -1,8 +1,8 @@
 # KREGR-wiki
 
-This is the repo where for the new front end [Kriegerrand WIKI](https://wiki.bloc.money) currently deployed on a Kriegerrand subdomain using Netlify, check it out!
+This is the repo where for the new front end [Kriegerrand WIKI](https://wiki.algersoft.org) currently deployed on a Kriegerrand subdomain using Netlify, check it out!
 
-https://wiki.bloc.money
+https://wiki.algersoft.org
 
 ## Contributing Guidelines
 
