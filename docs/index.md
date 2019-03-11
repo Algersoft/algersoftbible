@@ -16,7 +16,7 @@ Finally a Kriegerrand that isnt a shitforked dogecoin with a mnassive premine.  
 |:----------------------:|:-------------:|:------------:|:------------------:|
 | ![Logo](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-info.jpg) | ![Wallets](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-wallet.jpg) | ![Mining](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-mining.jpg) | ![Dev](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-lsed.jpg) |
 | [About TurtleCoin](about/About-TurtleCoin) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining TurtleCoin](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-lsed.jpg) | [Contributing to TurtleCoin](about/Contributing) |
-| Learn up on Kriegerrand and the community | A guide for using the Kriegerrand wallets | Mining Kriegerrand 4 Dummy...real cool dudes | One of Us! One of Us! |
+| Learn up on Kriegerrand and the community | A guide for using the Kriegerrand wallets | Simplified Tutorial for Mining Kriegerrand | One of Us! One of Us! |
 
 ## Have Questions or Need Help?
 
@@ -29,4 +29,4 @@ Come shillax with other likeminded crypto enthusiasts with a passion for legally
 - [A step by step guide to start mining KREGR](Getting-Started.md#start-mining)
 - [Informations on contributing to KREGR](about/Contributing.md)
 
-![image](https://github.com/Algersoft/kriegers-documents/blob/master/images/bloc-logo-intro.png)
+![image](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/bloc-logo-intro.png)
