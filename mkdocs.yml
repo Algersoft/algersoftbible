@@ -1,15 +1,15 @@
 # proj info
-site_name: 'BLOC.MONEY Wiki'
-site_description: 'Wiki for BLOC'
-site_author: 'BLOC.MONEY'
-site_url: https://wiki.bloc.money/
+site_name: 'krieger Wiki'
+site_description: 'Wiki for Kriegerrand'
+site_author: 'AlgerSoft.xyz'
+site_url: http://wiki.algersoft.xyz/
 
 # repo
-repo_name: 'furiousteam/KREGR-wiki'
-repo_url: 'https://github.com/furiousteam/KREGR-wiki'
+repo_name: 'Algersoft/krieger-wiki'
+repo_url: 'https://github.com/Algerosft/krieger-wiki'
 
 # copyright
-copyright: 'Copyright 2018 BLOC.MONEY'
+copyright: 'Copyright 2019 Algersoft'
 
 
 # config
@@ -40,17 +40,13 @@ extra:
     language: 'en'
   social:
     - type: 'github'
-      link: 'https://github.com/furiousteam'
+      link: 'https://github.com/Algersoft'
     - type: 'twitter'
-      link: 'https://twitter.com/bloc_money'
+      link: 'https://twitter.com/kriegerrand'
     - type: 'telegram'
-      link: 'https://t.me/bloc_money'
+      link: 'https://t.me/kriegerrand'
     - type: 'discordapp'
       link: 'https://discord.gg/5Buudya'
-    - type: 'youtube'
-      link: 'https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA'
-    - type: 'instagram'
-      link: 'https://www.instagram.com/bloc.money'
 
 # Google Analytics
 google_analytics:
@@ -88,7 +84,7 @@ nav:
     - Welcome:
       - Home: index.md
       - Getting Started: Getting-Started.md
-      - About BLOC: about/Home.md
+      - About KREGR: about/Home.md
       - Wallets: wallets/Making-a-Wallet.md
       - Mining: mining/What-is-mining.md
       - Service Operators: service-operators/Resources.md
