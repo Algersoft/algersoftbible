@@ -99,9 +99,6 @@ nav:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md
-      - CLI Wallet:
-        - Kriegerbank Overview: wallets/Kriegerbank-Overview.md
-        - Using Kriegerbank: wallets/Kriegerbank-how-to-use.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
         - Kriegerrand Wallet v2.0: wallets/KREGR-GUI-Desktop-Wallet-V2.md
