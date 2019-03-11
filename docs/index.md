@@ -12,18 +12,17 @@ Finally a Kriegerrand that isnt a shitforked dogecoin with a mnassive premine.  
 
 ## Quick Navigation
 
-| **KREGR Info** | **Wallets** | **Mining** | **Free LSD** |
+| **KREGR Info** | **Wallets** | **Mining** | **Contribute** |
 |:----------------------:|:-------------:|:------------:|:------------------:|
 | ![Logo](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-info.jpg) | ![Wallets](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-wallet.jpg) | ![Mining](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-mining.jpg) | ![Dev](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-lsed.jpg) |
 | [About TurtleCoin](about/About-TurtleCoin) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining TurtleCoin](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-lsed.jpg) | [Contributing to TurtleCoin](about/Contributing) |
-| Learn more about TurtleCoin and the community | A guide on setting up a TurtleCoin wallet to start receiving some turtles! | A step-by-step guide to start mining TurtleCoin | Information on contributing to TurtleCoin |
+| Learn up on Kriegerrand and the community | A guide for using the Kriegerrand wallets | Mining Kriegerrand 4 Dummy...real cool dudes | One of Us! One of Us! |
 
 ## Have Questions or Need Help?
 
-Check out our [Discord](http://chat.turtlecoin.lol/) or [subreddit](https://www.reddit.com/r/TRTL/) to get in touch.
+Fort Kickass of the interwebs, line up [Discord](http://coms.kriegerrand.com/) or [subreddit](https://www.reddit.com/r/DrKrieger/)
 
-
-Free your life today, enjoy the Kriegerrand lifestyle. Join us.
+Come shillax with other likeminded crypto enthusiasts with a passion for legally/morally gray scientific research.
 
 - [Learn more about Kriegerrand and the community](about/Home.md)
 - [Setup your wallet to start receiving KREGR](Getting-Started.md#setting-up-a-new-wallet)
