@@ -4,18 +4,17 @@ Come and socialise with us! Check out our social networks to make sure you stay 
 
 ## **General**
 
-* BLOC.MONEY [official website](https://bloc.money)
-* [Kriegerrand White Paper](https://bloc.money/files/whitepaper/bloc-white-paper.pdf)
+* Kriegerrand [official website](https://kriegerrand.com)
+* [Kriegerrand White Paper](https://kriegerrand.com/wp-content/uploads/2019/02/Kriegerrand-White-Paper.pdf)
 
 ## **Downloads**
 
-* Kriegerrand softwares and applications available from the [Download area](https://bloc.money/download)
-* Kriegerrand source code available from [GitHub](https://github.com/furiousteam)
-* Kriegerrand Wallet for iOS [available on the App Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2)
+* Kriegerrand softwares and applications available from the [Download area](https://kriegerrand.com/downloads)
+* Kriegerrand source code available from [GitHub](https://github.com/Algersoft/Kriegerrand/)
 
 ## **Kriegerrand Dasboard**
 
-* Everything Kriegerrand in one place on the [Kriegerrand Dashboard](https://dashboard.bloc.money)
+* Everything Kriegerrand in one place on the [Kriegerrand Dashboard](https://xyz.kriegerrand.com)
 
 ## **Social Networks**
 
@@ -32,4 +31,4 @@ Come and socialise with us! Check out our social networks to make sure you stay 
 
 ## **Kriegerrand for developers**
 
-* [Kriegerrand DEVELOPER](https://bloc-developer.com)
+* [Kriegerrand DEVELOPER](https://algersoft.org)
