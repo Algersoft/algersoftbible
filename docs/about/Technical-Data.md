@@ -15,7 +15,7 @@ Website name : [KRIEGERRAND.com](https://kriegerrand.com)
 * Our Proof Of Work algortyhm is designed to make low end and high end hardware mining roughly equally efficient and restrict ASIC mining
 * **BLOCK TIME**: 666 seconds
 * **BLOCKS PER DAY**: 720
-* **PREMINE**: 666 Kriegerrand (.00001% of total supply) for mostly cocaine. [Why a premine ?](mostly...cocaine?)
+* **PREMINE**: 666 Kriegerrand (.00001% of total supply) for mostly cocaine. [Why a premine ?] ( mostly...cocaine? ) 
 
 * ASIC resistant
 * NiceHash resistant
