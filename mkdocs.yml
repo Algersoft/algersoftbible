@@ -1,15 +1,15 @@
 # proj info
-site_name: 'krieger Wiki'
+site_name: 'Krieger Wiki'
 site_description: 'Wiki for Kriegerrand'
-site_author: 'AlgerSoft.xyz'
-site_url: http://wiki.algersoft.xyz/
+site_author: 'Dr. Krieger'
+site_url: https://wiki.algersoft.org/
 
 # repo
-repo_name: 'Algersoft/krieger-wiki'
-repo_url: 'https://github.com/Algerosft/krieger-wiki'
+repo_name: 'Algersoft/krieger-documents'
+repo_url: 'https://github.com/Algersoft/krieger-documents'
 
 # copyright
-copyright: 'Copyright 2019 Algersoft'
+copyright: 'Copyright 2019 AlgerSoft'
 
 
 # config
@@ -46,7 +46,7 @@ extra:
     - type: 'telegram'
       link: 'https://t.me/kriegerrand'
     - type: 'discordapp'
-      link: 'https://discord.gg/5Buudya'
+      link: 'https://discord.gg/kpFYD88'
 
 # Google Analytics
 google_analytics:
@@ -99,16 +99,8 @@ nav:
       - Branding: about/Branding.md
       - Timeline: about/Timeline.md
       - Licence: about/Licence.md
-      - Ecosystem: about/Ecosystem.md
       - Sponsoring:
         - Sponsoring: about/Sponsoring.md
-        - Flyboard World Cup 2018: about/Sponsoring-Flyboard-WorldCup-2018.md
-      - TRAAKX:
-        - Presentation: about/TRAAKX.md
-        - Hardware: about/TRAAKX-hardware.md
-        - Beta version: about/TRAAKX-beta.md
-      - PAYCHANGE:
-        - Presentation: about/PAYCHANGE.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
@@ -122,10 +114,10 @@ nav:
         - Kriegerbank Overview: wallets/Kriegerbank-Overview.md
         - Using Kriegerbank: wallets/Kriegerbank-how-to-use.md
       - KREGR-service:
-        - Overview of bloc-service: wallets/bloc-service-index.md
-        - Command line Arguments: wallets/bloc-service-command-line.md
-        - JSON RPC Api: wallets/bloc-service-json-api.md
-        - JSON RPC erros: wallets/bloc-service-rpc-api-error-conditions.md
+        - Overview of krieger-rpc: wallets/krieger-rpc-index.md
+        - Command line Arguments: wallets/krieger-rpc-command-line.md
+        - JSON RPC Api: wallets/krieger-json-api.md
+        - JSON RPC erros: wallets/krieger-rpc-api-error-conditions.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
         - Kriegerrand Wallet v2.0: wallets/KREGR-GUI-Desktop-Wallet-V2.md
@@ -134,10 +126,10 @@ nav:
         - Using Remote Nodes: wallets/Using-remote-nodes.md
     - Mining:
       - What is Mining ?: mining/What-is-mining.md
-      - How to Mine BLOC: mining/How-to-mine-BLOC.md
+      - How to Mine KREGR: mining/How-to-mine-KREGR.md
       - Mining Pools: mining/Pools.md
-      - In-browser Miner: mining/bloc-in-browser-javascript-web-miner.md
-      - Javascript Miner: mining/bloc-javascript-miner.md
+      - In-browser Miner: mining/kriegerrand-in-browser-javascript-web-miner.md
+      - Javascript Miner: mining/kriegerrand-javascript-miner.md
       - Mining on your Phone:
         - Mine Kriegerrand from mobile: mining/mobile-mining/Mining-with-Phone.md
         - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
@@ -162,16 +154,15 @@ nav:
       - Ressources: service-operators/Resources.md
       - Compiling from Source: service-operators/Compiling-from-Source.md
       - Pool Operators: service-operators/Pool-Operator.md
-      - BLOCd:
-        - Overview: service-operators/BLOCd-Overview.md
-        - Command Line Arguments: service-operators/BLOCd-daemon-arguments.md
-        - Command Inline Options: service-operators/BLOCd-daemon-cli-options.md
-        - JSON RPC API: service-operators/BLOCd-daemon-json-rpc-api.md
-        - HTTP RPC API: service-operators/BLOCd-daemon-http-rpc-api.md
-        - Using Checkpoints: service-operators/Using-checkpoints-for-BLOCd.md
+      - MindBraind:
+        - Overview: service-operators/MindBraind-Overview.md
+        - Command Line Arguments: service-operators/MindBraind-daemon-arguments.md
+        - Command Inline Options: service-operators/MindBraind-daemon-cli-options.md
+        - JSON RPC API: service-operators/MindBraind-daemon-json-rpc-api.md
+        - HTTP RPC API: service-operators/MindBraind-daemon-http-rpc-api.md
+        - Using Checkpoints: service-operators/Using-checkpoints-for-MindBraind.md
     - Guides:
       - Dashboard:
         - Presentation: guides/dashboard/dashboard.md
-        - Telegram Airdrop Mission: guides/dashboard/Dashboard-airdrop-mission-telegram-group.md
       - Bounty Programm: guides/Bounty-Program.md
       - Glossary: guides/Glossary.md
