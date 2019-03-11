@@ -18,9 +18,13 @@ As with most POW cryptocoins, the mining process has two main functions. Most im
 
 Peep our indepth, yet easy to follow Krieger Mining Guide here [in-depth guide on how to mine KREGR](mining/What-is-mining.md)
 
-## **3. Join FortKickass and hang in our squad**
+## **3. Join us**
 
 Kriegerrand's most important fuel is it's community. It's Kriegerrand mako, and that makos our bitchin Discord the Midgar reactor. heh...but yeah. Be part of it. Its fun. We do things and good times had by all and stuff.  It HAS to be better than at least 20% of the other Discord servers you belong to. If discord aint your cup of tea we are also on Reddit, Telegram, and even Dread (Darknet's answer to Reddit)
 
-[Discord](https://discord.gg/kpFYD88)
-[Telegram Group](https://t.me/Kriegerrand)
+### **[Discord](https://discord.gg/kpFYD88)**
+
+### **[Telegram Group](https://t.me/Kriegerrand)**
+
+See you there. Unless u a bitchass
+
