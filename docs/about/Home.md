@@ -2,7 +2,7 @@
 
 ## **When cryptocurrency untraceable payments meets every day life**
 
-**[KREGR](https://bloc.money)** | Symbol: **Ƀ** - Ticker: **KREGR** is a fully decentralized cryptocurrency based on the open source Cryptonote technology, uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user, offering untraceable payements and respect of your private life. Send money spacewide, worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
+**[KREGR](https://kriegerrand.com)** | Symbol: **Ꝅ** - Ticker: **KREGR** the one true cryptocurrency. Based on cryptonote and developed to provide the absolute best possible anonymity and security features to it's users. A true privacy coin trough and through. It uses ring signitures, trace resistebt transactions recorded by an analysis resistent blockchain, and more. It also opts for a longer blocktime of 666 seconds which thwarts various security issues that plague coins with a short blocktime. 
 
 ## **Goals**
 
