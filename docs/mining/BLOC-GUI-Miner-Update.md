@@ -1,0 +1,1 @@
+![Kriegerrand GUI Miner Mining KREGR](images/KREGR-GUI-MINER/KREGR-GUI-Miner-Update-0.0.3.jpg)
