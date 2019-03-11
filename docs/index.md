@@ -15,7 +15,7 @@ Finally a Kriegerrand that isnt a shitforked dogecoin with a mnassive premine.  
 | **KREGR Info** | **Wallets** | **Mining** | **Contribute** |
 |:----------------------:|:-------------:|:------------:|:------------------:|
 | ![Logo](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-info.jpg) | ![Wallets](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-wallet.jpg) | ![Mining](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-mining.jpg) | ![Dev](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-lsed.jpg) |
-| [About Kriegerrand](about/About-TurtleCoin) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining Kriegerrand](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-lsed.jpg) | [Helpout Kriegerrand](about/Contributing) |
+| [About Kriegerrand](about/About-TurtleCoin.md) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining Kriegerrand](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-lsed.jpg) | [Helpout Kriegerrand](about/Contributing) |
 | Learn up on Kriegerrand and the community | A guide for using the Kriegerrand wallets | Simplified Tutorial for Mining Kriegerrand | One of Us! One of Us! |
 
 ## Have Questions or Need Help?
