@@ -1,1 +1,181 @@
+# proj info
+site_name: 'BLOC.MONEY Wiki'
+site_description: 'Wiki for BLOC'
+site_author: 'BLOC.MONEY'
+site_url: https://wiki.bloc.money/
 
+# repo
+repo_name: 'furiousteam/KREGR-wiki'
+repo_url: 'https://github.com/furiousteam/KREGR-wiki'
+
+# copyright
+copyright: 'Copyright 2018 BLOC.MONEY'
+
+
+# config
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 'images/logo.png'
+  favicon: 'images/fav.png'
+  palette:
+    primary: 'Blue'
+    accent: 'light blue'
+  language: 'en'
+  direction: 'ltr'
+  feature:
+    tabs: true
+  # 404 page
+  static_templates:
+    - 404.html
+  extra_css:
+    - stylesheets/extra.css
+
+# customization
+extra:
+  search:
+    language: 'en'
+  social:
+    - type: 'github'
+      link: 'https://github.com/furiousteam'
+    - type: 'twitter'
+      link: 'https://twitter.com/bloc_money'
+    - type: 'telegram'
+      link: 'https://t.me/bloc_money'
+    - type: 'discordapp'
+      link: 'https://discord.gg/5Buudya'
+    - type: 'youtube'
+      link: 'https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA'
+    - type: 'instagram'
+      link: 'https://www.instagram.com/bloc.money'
+
+# Google Analytics
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'
+
+# extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+  #pymdown extensions
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# directory org
+nav:
+    - Welcome:
+      - Home: index.md
+      - Getting Started: Getting-Started.md
+      - About BLOC: about/Home.md
+      - Wallets: wallets/Making-a-Wallet.md
+      - Mining: mining/What-is-mining.md
+      - Service Operators: service-operators/Resources.md
+      - Glossary: guides/Glossary.md
+    - About:
+      - Home: about/Home.md
+      - Features: about/Features.md
+      - Background and History: about/Background-and-History.md
+      - Our Community: about/Community.md
+      - Contributing: about/Contributing.md
+      - Technical Data: about/Technical-Data.md
+      - Branding: about/Branding.md
+      - Timeline: about/Timeline.md
+      - Licence: about/Licence.md
+      - Ecosystem: about/Ecosystem.md
+      - Sponsoring:
+        - Sponsoring: about/Sponsoring.md
+        - Flyboard World Cup 2018: about/Sponsoring-Flyboard-WorldCup-2018.md
+      - TRAAKX:
+        - Presentation: about/TRAAKX.md
+        - Hardware: about/TRAAKX-hardware.md
+        - Beta version: about/TRAAKX-beta.md
+      - PAYCHANGE:
+        - Presentation: about/PAYCHANGE.md
+    - Wallets:
+      - Making a Wallet: wallets/Making-a-Wallet.md
+      - Paper Wallet: wallets/Making-a-paper-wallet.md
+      - Recovering your Wallet: wallets/recovering-your-wallet.md
+      - iPhone & iPad Kriegerrand Wallet:
+        - Introduction: wallets/KREGR-iOS-wallet-index.md
+        - Overview: wallets/KREGR-iOS-wallet.md
+        - How to build with Xcode: wallets/KREGR-iOS-wallet-xcode.md
+      - Telegram Wallet: wallets/KREGR-Telegram-Wallet.md
+      - CLI Wallet:
+        - Kriegerbank Overview: wallets/Kriegerbank-Overview.md
+        - Using Kriegerbank: wallets/Kriegerbank-how-to-use.md
+      - KREGR-service:
+        - Overview of bloc-service: wallets/bloc-service-index.md
+        - Command line Arguments: wallets/bloc-service-command-line.md
+        - JSON RPC Api: wallets/bloc-service-json-api.md
+        - JSON RPC erros: wallets/bloc-service-rpc-api-error-conditions.md
+      - GUI Wallets:
+        - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
+        - Kriegerrand Wallet v2.0: wallets/KREGR-GUI-Desktop-Wallet-V2.md
+        - Kriegerrand Electron Wallet v3.0: wallets/KREGR-GUI-Electron-Wallet.md
+      - Remote Nodes:
+        - Using Remote Nodes: wallets/Using-remote-nodes.md
+    - Mining:
+      - What is Mining ?: mining/What-is-mining.md
+      - How to Mine BLOC: mining/How-to-mine-BLOC.md
+      - Mining Pools: mining/Pools.md
+      - In-browser Miner: mining/bloc-in-browser-javascript-web-miner.md
+      - Javascript Miner: mining/bloc-javascript-miner.md
+      - Mining on your Phone:
+        - Mine Kriegerrand from mobile: mining/mobile-mining/Mining-with-Phone.md
+        - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
+        - Mining with Kriegerrand Wallet iOS: mining/mobile-mining/Mining-with-KREGR-Wallet-iOS.md
+      - Mining with Kriegerrand GUI Miner:
+        - Introduction: mining/KREGR-GUI-Miner.md
+        - How to use: mining/KREGR-GUI-Miner-using.md
+        - How to compile: mining/KREGR-GUI-Miner-Compile.md
+        - Update Details: mining/KREGR-GUI-Miner-Update.md
+      - Mining with XMR-stak: 
+        - What is XMR-stak: mining/XMR-Stak-index.md
+        - Mining on Windows: mining/XMR-Stak-windows-Guide.md
+        - Mining on Linux: mining/XMR-Stak-Linux-Guide.md
+        - Mining on Mac OS: mining/XMR-Stak-Mac-Guide.md
+      - Mining with XMRIG:
+        - What is XMRIG: mining/XMRIG-index.md
+        - CPU Mining on Linux: mining/XMRIG-Guide-cpu-linux.md
+        - CPU Mining on Mac: mining/XMRIG-Guide-cpu-mac.md
+        - CPU Mining on Windows: mining/XMRIG-Guide-cpu-windows.md
+      - Mining with a SBC: mining/KREGR-Mining-Rasberry-Pi.md
+    - Service Operators:
+      - Ressources: service-operators/Resources.md
+      - Compiling from Source: service-operators/Compiling-from-Source.md
+      - Pool Operators: service-operators/Pool-Operator.md
+      - BLOCd:
+        - Overview: service-operators/BLOCd-Overview.md
+        - Command Line Arguments: service-operators/BLOCd-daemon-arguments.md
+        - Command Inline Options: service-operators/BLOCd-daemon-cli-options.md
+        - JSON RPC API: service-operators/BLOCd-daemon-json-rpc-api.md
+        - HTTP RPC API: service-operators/BLOCd-daemon-http-rpc-api.md
+        - Using Checkpoints: service-operators/Using-checkpoints-for-BLOCd.md
+    - Guides:
+      - Dashboard:
+        - Presentation: guides/dashboard/dashboard.md
+        - Telegram Airdrop Mission: guides/dashboard/Dashboard-airdrop-mission-telegram-group.md
+      - Bounty Programm: guides/Bounty-Program.md
+      - Glossary: guides/Glossary.md
