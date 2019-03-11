@@ -92,7 +92,6 @@ nav:
     - About:
       - Home: about/Home.md
       - Features: about/Features.md
-      - Background and History: about/Background-and-History.md
       - Our Community: about/Community.md
       - Contributing: about/Contributing.md
       - Technical Data: about/Technical-Data.md
@@ -105,15 +104,10 @@ nav:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md
-      - iPhone & iPad Kriegerrand Wallet:
-        - Introduction: wallets/KREGR-iOS-wallet-index.md
-        - Overview: wallets/KREGR-iOS-wallet.md
-        - How to build with Xcode: wallets/KREGR-iOS-wallet-xcode.md
-      - Telegram Wallet: wallets/KREGR-Telegram-Wallet.md
       - CLI Wallet:
         - Kriegerbank Overview: wallets/Kriegerbank-Overview.md
         - Using Kriegerbank: wallets/Kriegerbank-how-to-use.md
-      - KREGR-service:
+      - Krieger-RPC:
         - Overview of krieger-rpc: wallets/krieger-rpc-index.md
         - Command line Arguments: wallets/krieger-rpc-command-line.md
         - JSON RPC Api: wallets/krieger-json-api.md
