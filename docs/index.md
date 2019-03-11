@@ -1,10 +1,8 @@
-# **Welcome to Kriegerrand Wiki**
-This wiki is the main source of documentation for newcomers to the **KREGR** project. If this is your first time hearing about BLOC, we recommend starting by visiting the official [BLOC.MONEY](https://bloc.money) website.
+# **Welcome Krieger's Documents*
+This repository houses a galaxy of important documents, schematics, tutorials and general information about Kriegerrand and some other AlgerSoft related projects. If you wanted to learn something specific about Kriegerrand, this is the place to find the answer. **KREGR** project.
 
-## **What is BLOC?**
-**KREGR** is a fast, easy to use and private decentralized cryptocurrency. Send money spacewide, worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
-
-One of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a powerful ecosystem for users, to benefits advantages from multiple type of industries like never done before.
+## **What is Kriegerrand?**
+**Kriegerrand** (KREGR) is an anonymous and secure cryptocurrency.  It's based on CryptoNote and Inspired by the initial conception of Kriegerrand on Archer.  This is a seriously super serious project of science with the primary goal studying chaos theory, and inventing a secure and anonymous method of funding ..sort of legal..ish...scientific research.
 
 **KREGR** is easy to mine and makes [getting started](Getting-Started.md) with cryptocurrencies easier than ever.
 
@@ -17,4 +15,4 @@ Free your life today, enjoy the Kriegerrand lifestyle. Join us.
 - [A step by step guide to start mining KREGR](Getting-Started.md#start-mining)
 - [Informations on contributing to KREGR](about/Contributing.md)
 
-[![KREGR](images/KREGR-in-out_blue.gif)](https://bloc.money)
+[![KREGR](images/KREGR-in-out_blue.gif)](https://kriegerrand.coom)
