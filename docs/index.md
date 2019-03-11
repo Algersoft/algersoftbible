@@ -1,3 +1,5 @@
+![image](https://raw.githubusercontent.com/Algersoft/Kriegerrand/master/logos/Krieggerrand-logo-git.png)
+
 # **Krieger's Documents**
 This repository houses a galaxy of important documents, schematics, tutorials and general information about Kriegerrand and some other AlgerSoft related projects. If you wanted to learn something specific about Kriegerrand, this is the place to find the answer. **KREGR** project.
 
@@ -6,7 +8,20 @@ This repository houses a galaxy of important documents, schematics, tutorials an
 
 **KREGR** is easy to mine and makes [getting started](Getting-Started.md) with cryptocurrencies easier than ever.
 
-It's about time to take back the control of your money.
+Finally a Kriegerrand that isnt a shitforked dogecoin with a mnassive premine.  You're welcome.  lol..Shitforked. See, Kriegerrand is sp advamced its contributing to the crypto jargon encyclapedia. Double you're welcome. 
+
+## Quick Navigation
+
+| **KREGR Info** | **Wallets** | **Mining** | **Free LSD** |
+|:----------------------:|:-------------:|:------------:|:------------------:|
+| ![Logo](images/kriegerrand-info.jpg) | ![Wallets](images/kriegerrand-wallet.jpg) | ![Mining](images/kriegerrand-mining.jpg) | ![Dev](images/kriegerrand-lsed.jpg) |
+| [About TurtleCoin](about/About-TurtleCoin) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining TurtleCoin](Getting-Started#mining) | [Contributing to TurtleCoin](about/Contributing) |
+| Learn more about TurtleCoin and the community | A guide on setting up a TurtleCoin wallet to start receiving some turtles! | A step-by-step guide to start mining TurtleCoin | Information on contributing to TurtleCoin |
+
+## Have Questions or Need Help?
+
+Check out our [Discord](http://chat.turtlecoin.lol/) or [subreddit](https://www.reddit.com/r/TRTL/) to get in touch.
+
 
 Free your life today, enjoy the Kriegerrand lifestyle. Join us.
 
@@ -15,4 +30,4 @@ Free your life today, enjoy the Kriegerrand lifestyle. Join us.
 - [A step by step guide to start mining KREGR](Getting-Started.md#start-mining)
 - [Informations on contributing to KREGR](about/Contributing.md)
 
-![image](https://raw.githubusercontent.com/Algersoft/Kriegerrand/master/logos/Krieggerrand-logo-git.png)
+![image](https://github.com/Algersoft/kriegers-documents/blob/master/images/bloc-logo-intro.png)
