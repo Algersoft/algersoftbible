@@ -4,7 +4,7 @@ We love design, it’s part of our DNA in the Kriegerrand Team. Thomas, the Co-f
 
 ## **Downloads**
 
-Available for download logos and base line for BLOC:
+Available for download logos and base line for Kriegerrand:
 
 - Logo and base line [Press Kit](images/branding/PRESS_KIT.zip)
 - Animated logo Blue [GIF + Video](images/branding/BLOC_animated_BLUE.zip)
