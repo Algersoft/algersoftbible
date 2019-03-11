@@ -1,4 +1,4 @@
-# **Welcome Krieger's Documents*
+# **Krieger's Documents**
 This repository houses a galaxy of important documents, schematics, tutorials and general information about Kriegerrand and some other AlgerSoft related projects. If you wanted to learn something specific about Kriegerrand, this is the place to find the answer. **KREGR** project.
 
 ## **What is Kriegerrand?**
