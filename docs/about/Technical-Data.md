@@ -1,7 +1,7 @@
 # **Technical Data**
 
 Name: **KREGR**
-Website name : [KRIEGERRABD.com](https://kriegerrand.com)
+Website name : [KRIEGERRAND.com](https://kriegerrand.com)
 
 * [Whitepaper](http://kriegerrand.com/wp-content/uploads/2019/02/Kriegerrand-White-Paper.pdf)
 * [Source Code](https://github.com/Algersoft/Kriegerrand)
