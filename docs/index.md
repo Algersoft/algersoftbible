@@ -15,7 +15,7 @@ Finally a Kriegerrand that isnt a shitforked dogecoin with a mnassive premine.  
 | **KREGR Info** | **Wallets** | **Mining** | **Free LSD** |
 |:----------------------:|:-------------:|:------------:|:------------------:|
 | ![Logo](kriegers-documents/images/kriegerrand-lsed.jpg) | ![Wallets](images/kriegerrand-wallet.jpg) | ![Mining](images/kriegerrand-mining.jpg) | ![Dev](images/kriegerrand-lsed.jpg) |
-| [About TurtleCoin](about/About-TurtleCoin) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining TurtleCoin](Getting-Started#mining) | [Contributing to TurtleCoin](about/Contributing) |
+| [About TurtleCoin](about/About-TurtleCoin) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining TurtleCoin](https://raw.githubusercontent.com/Algersoft/kriegers-documents/master/images/kriegerrand-lsed.jpg) | [Contributing to TurtleCoin](about/Contributing) |
 | Learn more about TurtleCoin and the community | A guide on setting up a TurtleCoin wallet to start receiving some turtles! | A step-by-step guide to start mining TurtleCoin | Information on contributing to TurtleCoin |
 
 ## Have Questions or Need Help?
