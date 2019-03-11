@@ -1,22 +1,21 @@
 # **Technical Data**
 
 Name: **KREGR**
-Website name : [BLOC.MONEY](https://bloc.money)
+Website name : [KRIEGERRABD.com](https://kriegerrand.com)
 
-* [Whitepaper](https://bloc.money/files/whitepaper/bloc-white-paper.pdf)
-* [Source Code](https://github.com/furiousteam/BLOC)
-* **TICKER**: BLOC
-* **ADDRESS PREFIX**: `abLoc`
-* **TEST NET ADDRESS PREFIX**: `TbLoc`
-* **MAX SUPPLY**: 50,000,000 Kriegerrand in 2046
-* **DECIMAL PLACES**: 4 (.0000 BLOC)
-* **TX FEES**: (0.0001 BLOC)
-* **PROOF OF WORK ALGORITHM**: [CryptoNote](https://cryptonote.org) CRYPTONIGHT HAVEN
+* [Whitepaper](http://kriegerrand.com/wp-content/uploads/2019/02/Kriegerrand-White-Paper.pdf)
+* [Source Code](https://github.com/Algersoft/Kriegerrand)
+* **TICKER**: KREGR
+* **ADDRESS PREFIX**: `ZkRiEGER`
+* **TEST NET ADDRESS PREFIX**: `xkRiEGER`
+* **MAX SUPPLY**: 26,000,666 Kriegerrand
+* **DECIMAL PLACES**: 6 (.000000 KREGR)
+* **TX FEES**: (0.00001 KREGR)
+* **PROOF OF WORK ALGORITHM**: [CryptoNote](https://cryptonote.org) CRYPTONIGHT TURTLE
 * Our Proof Of Work algortyhm is designed to make low end and high end hardware mining roughly equally efficient and restrict ASIC mining
-* **BLOCK TIME**: 120 seconds
+* **BLOCK TIME**: 666 seconds
 * **BLOCKS PER DAY**: 720
-* **PREMINE**: 5 Million Kriegerrand (10% of total supply) for core Development team, upcoming bounties and future developement. [Why a premine ?](Background-and-History.md#why-a-premine)
-* **45 Million**: Kriegerrand coins are available for miners as reward for blockchain verification.
+* **PREMINE**: 666 Kriegerrand (.00001% of total supply) for mostly cocaine. [Why a premine ?](mostly...cocaine?)
 
 * ASIC resistant
 * NiceHash resistant
