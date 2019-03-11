@@ -15,4 +15,4 @@ Free your life today, enjoy the Kriegerrand lifestyle. Join us.
 - [A step by step guide to start mining KREGR](Getting-Started.md#start-mining)
 - [Informations on contributing to KREGR](about/Contributing.md)
 
-![image](https://github.com/Algersoft/Kriegerrand/blob/master/logos/Krieggerrand-logo-git.png)
+![image](https://raw.githubusercontent.com/Algersoft/Kriegerrand/master/logos/Krieggerrand-logo-git.png)
