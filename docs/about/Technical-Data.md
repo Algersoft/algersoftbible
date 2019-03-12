@@ -1,6 +1,6 @@
-# **Technical Data**
+# **Specs and Tech**
 
-Name: **KREGR**
+Name: **KRIEGERRAND**
 Website name : [KRIEGERRAND.com](https://kriegerrand.com)
 
 * [Whitepaper](http://kriegerrand.com/wp-content/uploads/2019/02/Kriegerrand-White-Paper.pdf)
@@ -14,7 +14,7 @@ Website name : [KRIEGERRAND.com](https://kriegerrand.com)
 * **PROOF OF WORK ALGORITHM**: [CryptoNote](https://cryptonote.org) CRYPTONIGHT TURTLE
 * Our Proof Of Work algortyhm is designed to make low end and high end hardware mining roughly equally efficient and restrict ASIC mining
 * **BLOCK TIME**: 666 seconds
-* **BLOCKS PER DAY**: 720
+* **BLOCKS PER DAY**: whatever
 * **PREMINE**: 666 Kriegerrand (.00001% of total supply) for mostly cocaine. [Why a premine ?] ( mostly...cocaine? ) 
 
 * ASIC resistant
