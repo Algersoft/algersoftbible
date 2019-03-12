@@ -1,6 +1,6 @@
 # **Kriegerrand Community**
 
-Come and socialise with us! Check out our social networks to make sure you stay up to date and meet crypto enthusiast like you.
+If you are truly interested in Kriegerrand then its highly recomended that you join our community to stay updated on news and other important intel. If you have zero interest in kriegerrand...still join our online community. f#ck it. Links below. 
 
 ## **General**
 
@@ -18,16 +18,12 @@ Come and socialise with us! Check out our social networks to make sure you stay 
 
 ## **Social Networks**
 
-* Join the [Subreddit for BLOC.MONEY (BLOC)](https://www.reddit.com/r/BLOC_MONEY/)
-* Kriegerrand official launch on [BitcoinTalk](https://bitcointalk.org/index.php?topic=4108831.0)
-* Follow [Kriegerrand Twitter](https://twitter.com/bloc_money)
-* Chat with the community on the [Kriegerrand Telegram Group](https://t.me/bloc_money)
-* Subscribe [Kriegerrand Telegram Channel](https://t.me/bloc_money_channel)
-* Check out the latest posts from the [Kriegerrand Instagram](https://www.instagram.com/bloc.money)
-* Like [Kriegerrand Facebook](https://www.facebook.com/Blocmoney-383098922176113) page
+* Reddit [Subreddit for Kriegerrand](https://www.reddit.com/r/DoctorKrieger)
+* Follow [Kriegerrand Twitter](https://twitter.com/kriegerrand)
+* Chat with the community on the [Kriegerrand Telegram Group](https://t.me/kriegerrand)
+* Subscribe [Kriegerrand Telegram Channel](https://t.me/DocKrieger)
 * Meet developers on the [Kriegerrand Discord Channel](https://discord.gg/5Buudya)
-* Watch videos and subscribe to [Kriegerrand Youtube Channel](https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA)
-* Read latest news from [Kriegerrand Medium Blog](https://medium.com/@bloc.money)
+* Read latest news from [Kriegerrand Medium Blog](https://medium.com/@DrKrieger)
 
 ## **Kriegerrand for developers**
 
