@@ -94,7 +94,8 @@ nav:
       - Features: about/Features.md
       - Our Community: about/Community.md                           
       - Contributing: about/Contributing.md                     
-      - Technical Data: about/Technical-Data.md     
+      - Technical Data: about/Technical-Data.md
+      - Additional Details: about/additional-specs.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
