@@ -139,12 +139,12 @@ _Address where block rewards go and miner payments come from._
 * **Desc**: SSL connection
 * **SSL**: true _Enable SSL_
 
-
-# _Variable difficulty is a feature that will automatically adjust difficulty for
-individual miners based on their hashrate in order to lower networking and CPU
-overhead._ 
-
 # **Var Diff**
+
+_*Variable difficulty is a feature that will automatically adjust difficulty for
+individual miners based on their hashrate in order to lower networking and CPU
+overhead*_ 
+
 * **Min Diff**: 100 _Minimum difficulty_
 * **Max Diff**: 100000000
 * **Target Time**: 60 _Try to get 1 share per this many seconds_
@@ -153,24 +153,24 @@ overhead._
 * **Max Jump**: 100 _Limit diff percent increase/decrease in a single retargeting_
 
 	
-**_Set difficulty on miner client side by passing <address> param with +<difficulty> postfix_**
-
 # **Fixed Diff**
 
+*_Set difficulty on miner client side by passing <address> param with +<difficulty> postfix_*
+	
 * **Enabled**: true
 * **Separator**: + _Character separator between <address> and <difficulty>_
 
-
-**_Set payment ID on miner client side by passing <address>.<paymentID>_**
-
 # **Payment Id**
+
+*_Set payment ID on miner client side by passing <address>.<paymentID>_*
+
+
 
 * **Address Separator**: . _Character separator between <address> and <paymentID>_
 
-
-_**Feature to trust share difficulties from miners which can significantly reduce CPU load.**_
-
 # **Share Trust**
+
+_*Feature to trust share difficulties from miners which can significantly reduce CPU load.*_
 
 * **Enabled**: true
 * **Min**: 10 _Minimum percent probability for share hashing_
@@ -179,9 +179,9 @@ _**Feature to trust share difficulties from miners which can significantly reduc
 * **Penalty**: 30 _Upon breaking trust require this many valid share before trusting_
 
 
-_**If under low-diff share attack we can ban their IP to reduce system/network load. **_
-
 # **banning**
+
+_*If under low-diff share attack we can ban their IP to reduce system/network load. *_
 
 * **Enabled**: true
 * **Time**: 600 _How many seconds to ban worker for_
@@ -195,6 +195,7 @@ _*Slush Mining is a reward calculation technique which disincentivizes pool hopp
 
 * **Enabled**: false _Enables slush mining. Recommended for pools catering to professional miners_
 * **Weight**: 300 _Defines how fast the score assigned to a share declines in time. The value should roughly be equivalent to the average round duration in seconds divided by 8. When deviating by too much numbers may get too high for JS._
+
 
 # **Payments**
 
