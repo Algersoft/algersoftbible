@@ -156,7 +156,7 @@ overhead*_
 	
 # **Fixed Diff**
 
-*_Set difficulty on miner client side by passing <address> param with +<difficulty> postfix_*
+*Set difficulty on miner client side by passing <address> param with +<difficulty> postfix*
 	
 * **Enabled**: true
 * **Separator**: + _Character separator between <address> and <difficulty>_
