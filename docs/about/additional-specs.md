@@ -1,5 +1,5 @@
 
-## **Additional KREGR Specs**
+# **Additional KREGR Specs**
 _Data for setting up KREGR mining pools, seed nodes and other "extra mile" tasks to help grow and promote the community._
 
 Name: **KRIEGERRAND**
