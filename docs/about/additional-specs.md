@@ -64,67 +64,58 @@ Used for storage in redis so multiple coins can share the same redis instance.
 * **cn Blob Type**: 0
 
 # **Logging**
-logging
-
-files
-
- Specifies the level of log output verbosity. This level and anything
-   more severe will be logged. Options are: info warn or error. 
 
 * **level**: info
-
- Directory where to write log files. 
-
+_Specifies the level of log output verbosity. This level and anything more severe will be logged. Options are: info warn or error_
 
 * **Directory**: logs
-
- How often (in seconds) to append/flush data to the log files. 
+_Directory where to write log files._
 
 * **Flush Interval**: 5
+_How often (in seconds) to append/flush data to the log files._ 
+
 
 # **CONSOLE**
 
 * **level**: info
- Gives console output useful colors. If you direct that output to a log file
-   then disable this feature to avoid nasty characters in the file. 
+_Gives console output useful colors. If you direct that output to a log file
+   then disable this feature to avoid nasty characters in the file._ 
 
-   * **Colors**: true
+* **Colors**: true
+
 
 # **Modular Pool Server** 
 
 * **Enabled**: true
 
- Set to auto by default which will spawn one process/fork/worker for each CPU
+* **cluster Forks**: auto
+ _Set to auto by default which will spawn one process/fork/worker for each CPU
 core in your system. Each of these workers will run a separate instance of your
 pool(s) and the kernel will load balance miners using these forks. Optionally
-the 'forks' field can be a number for how many forks will be spawned. 
-* **cluster Forks**: auto
-
-Address where block rewards go and miner payments come from.
+the 'forks' field can be a number for how many forks will be spawned._ 
 
 * **Pool Address**: GBqRuitSoU3PFPBAkXMEnLdBRWXH4iDSD6RDxnQiEFjVJhWUi1UuqfV5EzosmaXgpPGE6JJQjMYhZZgWY8EJQn8jQTsuTit
-
- This is the integrated address prefix used for miner login validation. 
+_Address where block rewards go and miner payments come from._
 
 * **Int Address Prefix**: 91
-
- Poll RPC daemons for new blocks every this many milliseconds. 
+ _This is the integrated address prefix used for miner login validation._ 
 
 * **Block Refresh Interval**: 1000
-
- How many seconds until we consider a miner disconnected. 
+ _Poll RPC daemons for new blocks every this many milliseconds._ 
 
 * **Miner Timeout**: 900
+ _How many seconds until we consider a miner disconnected._ 
 
-* **SSL Cert**: ./cert.pem // The SSL certificate
-* **SSL Key**: ./privkey.pem // The SSL private key
-* **SSL CA**: ./chain.pem // The SSL certificate authority chain
+* **SSL Cert**: ./cert.pem  _The SSL certificate_
+* **SSL Key**: ./privkey.pem _The SSL private key_
+* **SSL CA**: ./chain.pem _The SSL certificate authority chain_
 
-ports**: 
 
-* **Port**: 3333 // Port for mining apps to connect to
-* **Difficulty**: 2000 // Initial difficulty miners are set to
-* **Desc**: Low end hardware // Description of port
+# **ports**
+
+* **Port**: 3333 _Port for mining apps to connect to_
+* **Difficulty**: 2000 _Initial difficulty miners are set to_
+* **Desc**: Low end hardware _Description of port_
 
 * **Port**: 4444
 * **Difficulty**: 15000
@@ -141,151 +132,170 @@ ports**:
 * **Port**: 8888
 * **Difficulty**: 25000
 * **Desc**: Hidden port
-* **Hidden**: true // Hide this port in the front-end
+* **Hidden**: true _Hide this port in the front-end_
 
 * **Port**: 9999
 * **Difficulty**: 20000
 * **Desc**: SSL connection
-* **SSL**: true // Enable SSL
+* **SSL**: true _Enable SSL_
 
 
- Variable difficulty is a feature that will automatically adjust difficulty for
+# _Variable difficulty is a feature that will automatically adjust difficulty for
 individual miners based on their hashrate in order to lower networking and CPU
-overhead. 
-varDiff
-* **Min Diff**: 100 // Minimum difficulty
+overhead._ 
+
+# **Var Diff**
+* **Min Diff**: 100 _Minimum difficulty_
 * **Max Diff**: 100000000
-* **Target Time**: 60 // Try to get 1 share per this many seconds
-* **Retarget Time**: 30 // Check to see if we should retarget every this many seconds
-* **Variance Percent**: 30 // Allow time to vary this % from target without retargeting
-* **Max Jump**: 100 // Limit diff percent increase/decrease in a single retargeting
+* **Target Time**: 60 _Try to get 1 share per this many seconds_
+* **Retarget Time**: 30 _Check to see if we should retarget every this many seconds_
+* **Variance Percent**: 30 _Allow time to vary this % from target without retargeting_
+* **Max Jump**: 100 _Limit diff percent increase/decrease in a single retargeting_
 
 	
- Set difficulty on miner client side by passing <address> param with +<difficulty> postfix 
-fixedDiff
+**_Set difficulty on miner client side by passing <address> param with +<difficulty> postfix_**
+
+# **Fixed Diff**
+
 * **Enabled**: true
-* **Separator**: + // Character separator between <address> and <difficulty>
+* **Separator**: + _Character separator between <address> and <difficulty>_
 
 
- Set payment ID on miner client side by passing <address>.<paymentID> 
-paymentId
-* **Address Separator**: . // Character separator between <address> and <paymentID>
+**_Set payment ID on miner client side by passing <address>.<paymentID>_**
+
+# **Payment Id**
+
+* **Address Separator**: . _Character separator between <address> and <paymentID>_
 
 
- Feature to trust share difficulties from miners which can
-significantly reduce CPU load. 
-shareTrust
+_**Feature to trust share difficulties from miners which can significantly reduce CPU load.**_
+
+# **Share Trust**
+
 * **Enabled**: true
-* **Min**: 10 // Minimum percent probability for share hashing
-* **Step Down**: 3 // Increase trust probability % this much with each valid share
-* **Threshold**: 10 // Amount of valid shares required before trusting begins
-* **Penalty**: 30 // Upon breaking trust require this many valid share before trusting
+* **Min**: 10 _Minimum percent probability for share hashing_
+* **Step Down**: 3 _Increase trust probability % this much with each valid share_
+* **Threshold**: 10 _Amount of valid shares required before trusting begins_
+* **Penalty**: 30 _Upon breaking trust require this many valid share before trusting_
 
 
- If under low-diff share attack we can ban their IP to reduce system/network load. 
-banning
+_**If under low-diff share attack we can ban their IP to reduce system/network load. **_
+
+# **banning**
+
 * **Enabled**: true
-* **Time**: 600 // How many seconds to ban worker for
-* **Invalid Percent**: 25 // What percent of invalid shares triggers ban
-* **Check Threshold**: 30 // Perform check when this many shares have been submitted
+* **Time**: 600 _How many seconds to ban worker for_
+* **Invalid Percent**: 25 _What percent of invalid shares triggers ban_
+* **Check Threshold**: 30 _Perform check when this many shares have been submitted_
 
 
- Slush Mining is a reward calculation technique which disincentivizes pool hopping and rewards 'loyal' miners by valuing younger shares higher than older shares. Remember adjusting the weight!
-More about it here: https://mining.bitcoin.cz/help/#!/manual/rewards 
-slushMining
-* **Enabled**: false // Enables slush mining. Recommended for pools catering to professional miners
-* **Weight**: 300 // Defines how fast the score assigned to a share declines in time. The value should roughly be equivalent to the average round duration in seconds divided by 8. When deviating by too much numbers may get too high for JS.
+# **Slush Mining**
 
+_*Slush Mining is a reward calculation technique which disincentivizes pool hopping and rewards 'loyal' miners by valuing younger shares higher than older shares. Remember adjusting the weight! More about it here: https://mining.bitcoin.cz/help/#!/manual/rewards *_
 
- Module that sends payments to miners according to their submitted shares. 
-payments
+* **Enabled**: false _Enables slush mining. Recommended for pools catering to professional miners_
+* **Weight**: 300 _Defines how fast the score assigned to a share declines in time. The value should roughly be equivalent to the average round duration in seconds divided by 8. When deviating by too much numbers may get too high for JS._
+
+# **Payments**
+
+_*Module that sends payments to miners according to their submitted shares.*_
+
 * **Enabled**: true
-* **Interval**: 300 // How often to run in seconds
-* **Max Addresses**: 50 // Split up payments if sending to more than this many addresses
-* **Mixin**: 5 // Number of transactions yours is indistinguishable from
-* **Priority**: 0 // The transaction priority
-* **Transfer Fee**: 4000000000 // Fee to pay for each transaction
-* **Dynamic Transfer Fee**: true // Enable dynamic transfer fee (fee is multiplied by number of miners)
-* **Miner Pay Fee : true // Miner pays the transfer fee instead of pool owner when using dynamic transfer fee
-* **Min Payment**: 100000000000 // Miner balance required before sending payment
-* **max Payment**: null // Maximum miner balance allowed in miner settings
-* **Max Transaction Amount**: 0 // Split transactions by this amount (to prevent too big transaction error)
-* **Denomination**: 10000000000 // Truncate to this precision and store remainder
+* **Interval**: 300 _How often to run in seconds
+* **Max Addresses**: 50 _Split up payments if sending to more than this many addresses
+* **Mixin**: 5 _Number of transactions yours is indistinguishable from_
+* **Priority**: 0 _The transaction priority_
+* **Transfer Fee**: 4000000000 _Fee to pay for each transaction_
+* **Dynamic Transfer Fee**: true _Enable dynamic transfer fee (fee is multiplied by number of miners)_
+* **Miner Pay Fee**: true _Miner pays the transfer fee instead of pool owner when_ using dynamic transfer fee_
+* **Min Payment**: 100000000000 _Miner balance required before sending payment_
+* **max Payment**: null _Maximum miner balance allowed in miner settings_
+* **Max Transaction Amount**: 0 _Split transactions by this amount (to prevent too big transaction error)_
+* **Denomination**: 10000000000 _Truncate to this precision and store remainder_
 
 
- Module that monitors the submitted block maturities and manages rounds. Confirmed
-   blocks mark the end of a round where workers' balances are increased in proportion
-   to their shares. 
-blockUnlocker
+# **Block Unlocker**
+ 
+*_Module that monitors the submitted block maturities and manages rounds. Confirmed blocks mark the end of a round where workers' balances are increased in proportion to their shares._*
+
 * **Enabled**: true
-* **Interval**: 30 // How often to check block statuses in seconds
+* **Interval**: 30 _How often to check block statuses in seconds_
 
- Block depth required for a block to unlocked/mature. Found in daemon source as
-the variable CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW 
+_*Block depth required for a block to unlocked/mature. Found in daemon source as
+the variable CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW*_
+
 * **Depth**: 60
-* **PoolFee**: 0.8 // 0.8% pool fee (1% total fee total including donations)
-* **DevDonation**: 0.2 // 0.2% donation to send to pool dev
-* **networkFee**: 0.0 // Network/Governance fee (used by some coins like Loki)
+* **PoolFee**: 0.8 _0.8% pool fee (1% total fee total including donations)_
+* **DevDonation**: 0.2 _0.2% donation to send to pool dev_
+* **networkFee**: 0.0 _Network/Governance fee (used by some coins like Loki)_
 
- Some forknote coins have an issue with block height in RPC request to fix you can enable this option.
-See: https://github.com/forknote/forknote-pool/issues/48 
-* **fixBlockHeightRPC**: false
+_Some forknote coins have an issue with block height in RPC request to fix you can enable this option. See: https://github.com/forknote/forknote-pool/issues/48_
 
+# **fixBlockHeightRPC**: false
 
- AJAX API used for front-end website. 
-api
+# **API**
+
+**AJAX API used for front-end website.**
+
 * **enabled**: true
-* **hashrateWindow**: 600 // How many second worth of shares used to estimate hash rate
-* **updateInterval**: 3 // Gather stats and broadcast every this many seconds
-* **bindIp**: 0.0.0.0 // Bind API to a specific IP (set to 0.0.0.0 for all)
-* **Port**: 8117 // The API port
-* **blocks**: 30 // Amount of blocks to send at a time
-* **Payments**: 30 // Amount of payments to send at a time
-* **Password**: your_password // Password required for admin stats
-* **SSL**: false // Enable SSL API
-* **SSLPort**: 8119 // The SSL port
-* **SSLCert**: ./cert.pem // The SSL certificate
-* **SSLKey**: ./privkey.pem // The SSL private key
-* **SSLCA**: ./chain.pem // The SSL certificate authority chain
-* **trustProxyIP**: false // Proxy X-Forwarded-For support
-* **ignoreSrcIP**: false // Silently ignore source IP when changing min payments or notification settings
+* **hashrateWindow**: 600 _How many second worth of shares used to estimate hash rate_
+* **updateInterval**: 3 _Gather stats and broadcast every this many seconds_
+* **bindIp**: 0.0.0.0 _Bind API to a specific IP (set to 0.0.0.0 for all)_
+* **Port**: 8117 _The API port_
+* **blocks**: 30 _Amount of blocks to send at a time_
+* **Payments**: 30 _Amount of payments to send at a time_
+* **Password**: your_password_ Password required for admin stats_
+* **SSL**: false_ Enable SSL API_
+* **SSLPort**: 8119_ The SSL port_
+* **SSLCert**: ./cert.pem _The SSL certificate_
+* **SSLKey**: ./privkey.pem _The SSL private key_
+* **SSLCA**: ./chain.pem _The SSL certificate authority chain_
+* **trustProxyIP**: false _Proxy X-Forwarded-For support_
+* **ignoreSrcIP**: false _Silently ignore source IP when changing min payments or notification settings_
 
 
- Coin daemon connection details (default port is 18981) 
-daemon
+# **Daemon**
+
+_Coin daemon connection details (default port is 18981)_
+
 * **host**: 127.0.0.1
 * **Port**: 18981
 
+# **Wallet**
 
- Wallet daemon connection details (default port is 18980) 
-wallet
+_Wallet daemon connection details (default port is 18980)_
+
 * **host**: 127.0.0.1
 * **Port**: 18982
 
+# **Redis**
 
- Redis connection info (default port is 6379) 
-redis
+_Redis connection info (default port is 6379)_
+
 * **host**: 127.0.0.1
 * **Port**: 6379
-* **auth**: null // If set client will run redis auth command on connect. Use for remote db
-* **Db**: 0 // Set the REDIS database to use (default to 0)
-* **cleanupInterval**: 15 // Set the REDIS database cleanup interval (in days)
+* **auth**: null _If set client will run redis auth command on connect. Use for remote db_
+* **Db**: 0 _Set the REDIS database to use (default to 0)_
+* **cleanupInterval**: 15 _Set the REDIS database cleanup interval (in days)_
 
 
- Pool Notifications 
-notifications
+# **Pool Notifications** 
+
+# **Notifications**
+
 * **emailTemplate**: email_templates/default.txt
 * **emailSubject
 * **emailAdded**: Your email was registered
 * **workerConnected**: Worker %WORKER_NAME% connected
 * **workerTimeout**: Worker %WORKER_NAME% stopped hashing
 * **workerBanned**: Worker %WORKER_NAME% banned
-* **blockFound**: Block %HEIGHT% found !
-* **blockUnlocked**: Block %HEIGHT% unlocked !
-* **blockOrphaned**: Block %HEIGHT% orphaned !
-* **Payment**: We sent you a payment !
+* **blockFound**: Block %HEIGHT% found
+* **blockUnlocked**: Block %HEIGHT% unlocked
+* **blockOrphaned**: Block %HEIGHT% orphaned
+* **Payment**: We sent you a payment
 
-email Message
+# **Email Message**
+
 * **emailAdded**: Your email has been registered to receive pool notifications.
 * **workerConnected**: Your worker %WORKER_NAME% for address %MINER% is now connected from ip %IP%.
 * **workerTimeout**: Your worker %WORKER_NAME% for address %MINER% has stopped submitting hashes on %LAST_HASH%.
@@ -295,7 +305,7 @@ email Message
 * **blockOrphaned**: Block orphaned at height %HEIGHT% :(
 * **Payment**: A payment of %AMOUNT% has been sent to %ADDRESS% wallet.
 
-telegram Message
+# **Telegram Message**
 * **workerConnected**: Your worker _%WORKER_NAME%_ for address _%MINER%_ is now connected from ip _%IP%_.
 * **workerTimeout**: Your worker _%WORKER_NAME%_ for address _%MINER%_ has stopped submitting hashes on _%LAST_HASH%_.
 * **workerBanned**: Your worker _%WORKER_NAME%_ for address _%MINER%_ has been banned.
@@ -304,128 +314,127 @@ telegram Message
 * **blockOrphaned**: *Block orphaned at height* _%HEIGHT%_ *:(*
 * **Payment**: A payment of _%AMOUNT%_ has been sent.
 
- Email Notifications 
+ # **Email Notifications**
 
-email
+# **Email**
 * **enabled**: false
-* **fromAddress**: your@email.com // Your sender email
-* **transport**: sendmail // The transport mode (sendmail smtp or mailgun)
+* **fromAddress**: your@email.com _Your sender email_
+* **transport**: sendmail  _The transport mode (sendmail smtp or mailgun_
 
-// Configuration for sendmail transport
-// Documentation: http://nodemailer.com/transports/sendmail/
+ # **Configuration for sendmail transport**
+ _Documentation: http://nodemailer.com/transports/sendmail/_
 
-sendmail
+# **sendmail**
 * **Path**: /usr/sbin/sendmail // The path to sendmail command
-}
 
-// Configuration for SMTP transport
-// Documentation: http://nodemailer.com/smtp/
+# **Configuration for SMTP transport**
+* **Documentation:** -http://nodemailer.com/smtp/-
 
-smtp
-* **host**: smtp.example.com // SMTP server
-* **Port**: 587 // SMTP port (25 587 or 465)
-* **secure**: false // TLS (if false will upgrade with STARTTLS)
+# **SMTP**
+
+* **host**: smtp.example.com _SMTP server_
+* **Port**: 587 _SMTP port (25 587 or 465)_
+* **secure**: false _TLS (if false will upgrade with STARTTLS)_
 * **auth
-* **user**: username // SMTP username
-* **Pass**: password // SMTP password
+* **user**: username _SMTP username_
+* **Pass**: password _SMTP password_
 
-tls
-* **rejectUnauthorized**: false // Reject unauthorized TLS/SSL certificate
+TLS
+
+* **rejectUnauthorized**: false _Reject unauthorized TLS/SSL certificate_
 
 
+# **Configuration for MailGun transport**
 
-// Configuration for MailGun transport
-mailgun
-* **key**: your-private-key // Your MailGun Private API key
-* **Domain**: mg.yourdomain // Your MailGun domain
+# **Mail Gun**
 
- Telegram channel notifications.
-   See Telegram documentation to setup your bot: https://core.telegram.org/bots#3-how-do-i-create-a-bot 
-telegram
+* **key**: your-private-key  _Your MailGun Private API key_
+* **Domain**: mg.yourdomain _Your MailGun domain_
+
+# **Telegram Channel Notifications**
+
+_See Telegram documentation to setup your bot: https://core.telegram.org/bots#3-how-do-i-create-a-bot 
+telegram_
+
 * **enabled**: false
-* **botName**:  // The bot user name.
-* **token**:  // The bot unique authorization token
-* **channel**:  // The telegram channel id (ex: BlockHashMining)
+* **botName**:  _The bot user name._
+* **token**:  _The bot unique authorization token_
+* **channel**:  _The telegram channel id (ex: BlockHashMining)_
 * **channelStats
-* **enabled**: false // Enable periodical updater of pool statistics in telegram channel
-* **interval**: 5 // Periodical update interval (in minutes)
+* **enabled**: false _Enable periodical updater of pool statistics in telegram channel_
+* **interval**: 5 _Periodical update interval (in minutes)_
 
-botCommands // Set the telegram bot commands
-* **stats**: /stats // Pool statistics
-* **enable**: /enable // Enable telegram notifications
-* **Disable**: /disable // Disable telegram notifications
+# **Bot Commands** _Set the telegram bot commands_
+* **stats**: /stats _Pool statistics_
+* **enable**: /enable _Enable telegram notifications_
+* **Disable**: /disable _Disable telegram notifications_
 
 
+# **Monitoring RPC services**
+_Statistics will be displayed in Admin panel monitoring daemon_
 
- Monitoring RPC services. Statistics will be displayed in Admin panel 
-monitoring
-daemon
-* **checkInterval**: 60 // Interval of sending rpcMethod request
-* **rpcMethod**: getblockcount // RPC method name
+* **checkInterval**: 60 _Interval of sending rpcMethod request_
+* **rpcMethod**: getblockcount _RPC method name_
 
-wallet
+**Wallet**
+
 * **checkInterval**: 60
 * **rpcMethod**: getbalance
 
+_Prices settings for market and price charts_
 
+* **source**: cryptonator _Exchange (supported values: cryptonator altex crex24 cryptopia stocks.exchange tradeogre)_
+* **currency**: USD _Default currency_
 
- Prices settings for market and price charts 
-prices
-* **source**: cryptonator // Exchange (supported values: cryptonator altex crex24 cryptopia stocks.exchange tradeogre)
-* **currency**: USD // Default currency
-}
+**Charts**
 	
- Collect pool statistics to display in frontend charts  
-charts
-pool
-hashrate
-* **enabled**: true // Enable data collection and chart displaying in frontend
-* **updateInterval**: 60 // How often to get current value
-* **stepInterval**: 1800 // Chart step interval calculated as average of all updated values
-* **maximumPeriod**: 86400 // Chart maximum periods (chart points number = maximumPeriod / stepInterval = 48)
+_Collect pool statistics to display in frontend charts pool hashrate_
 
-		miners
+* **enabled**: true _Enable data collection and chart displaying in frontend_
+* **updateInterval**: 60 _How often to get current value_
+* **stepInterval**: 1800 _Chart step interval calculated as average of all updated values_
+* **maximumPeriod**: 86400 _Chart maximum periods (chart points number = maximumPeriod / stepInterval = 48)_
+
+# **Miners**
 * **enabled**: true
 * **updateInterval**: 60
 * **stepInterval**: 1800
 * **maximumPeriod**: 86400
 			
-workers
+# **Workers**
 * ** enabled**: true
 * **updateInterval**: 60
 * **stepInterval**: 1800
 * ** maximumPeriod**: 86400
 
-difficulty
+# **Difficulty**
 * **Enabled**: true
 * **Update Interval**: 1800
 * **Step Interval**: 10800
 * **Maximum Period**: 604800
 
-price
+# **Price**
 * **Enabled**: true
 * **Update Interval**: 1800
 * **Sep Interval**: 10800
 * **Maximum Period**: 604800
 
-profit
+# **Profit**
 * **Enabled**: true
 * **Update Interval**: 1800
 * **Step Interval**: 10800
 * **Maximum Period**: 604800
 
-
-Chart data displayed in user stats
+# **Chart data displayed in user stats**
 * **Enabled**: true
 * **Update Interval**: 180
 * **Step Interval**: 1800
 * **Maximum Period**: 86400
 
-Payment chart uses all user payments data stored in DB
+# **Payment chart uses all user payments data stored in DB**
 * **Enabled**: true
 
-
-blocks
+# **Blocks**
 * **Enabled**: true
-* **Days**: 30 // Number of days displayed in chart (if value is 1 display last 24 hours)
+* **Days**: 30 _Number of days displayed in chart (if value is 1 display last 24 hours)_
 
